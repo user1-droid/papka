@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.photo{
+    background-image: url(./salom.jpg);
+    background-size: 2000px;
+    height: 1000px;
+    background-repeat: no-repeat;
+
+}
+nav{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    font-family: sans-serif;
+    align-content: center;
+    background-repeat: no-repeat;
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 30px;
+    font-family: sans-serif;
+}
+.photo h1{
+    margin: 20px;
+}
+p:hover{
+    color: red;
+    cursor: pointer;
+}
+.text-bottom{
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 170px;
+    font-size: 33px;
+    font-family: sans-serif;
+    align-items: start;
+}
+.btn{
+    display: flex;
+    gap: 40px;
+}
+.btn button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    transition: 2s;
+    cursor: pointer;
+    
+}
+.btn button:nth-child(1):hover{
+    background: linear-gradient(red,white,blue);
+    /* color: white; */
+}
+.btn button:nth-child(2):hover{
+    background: linear-gradient(blue,white,green);
+    /* color: white; */
+}
+.main{
+    margin: 100px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.main p{
+    width: 450px;
+}
+.main button{
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    background: aquamarine;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+.main h1{
+    font-size: 45px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card-img{
+    border: 2px solid black;
+    padding: 130px;
+    border-radius: 50px;
+    width: 500px;
+}
+.rasm img{
+    border-radius: 20px;
+    width: 500px;
+    margin-left: 180px;
+}
+.text h4{
+    font-size: 30px;
+    font-family: sans-serif;
+    margain-left: 500px;
+}
+.rasm{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+ button{
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+}
